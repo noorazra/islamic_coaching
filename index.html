@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Al-Hira </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+    <style >
+
+        
+        .navbar{
+            background-color: #973131;
+   
+           }
+
+           .navdiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }    
+
+        .logo{
+            color:darkblue;
+            font-size: 30px;
+            font-weight: bold;
+           }
+        
+          
+
+       li{
+        list-style: none;
+        display: inline-block;
+        
+       }
+       li a{
+        color: rgb(192, 0, 0);
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 25px;
+       }
+
+        .imgee{
+            width: 1360px;
+            height: 500px;
+            background-position: center;
+            background-image: linear-gradient(rgb(245, 231, 178),rgb(224, 167, 94));
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            margin-top: 45px;
+            margin-left:3rem ;
+            margin-right: 3rem;
+        }
+       
+        .center{     
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+
+        }
+        button a{
+            text-decoration: none;
+            color:  inherit;
+        }
+
+        button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: darkgoldenrod;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+
+button:hover {
+    background-color:rgb(240, 185, 47) ;
+    color:black;
+}
+
+    
+
+        </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark ">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand" style="color:white; font-size: 50px;">Al-Hira</a>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">HOME </a></li> 
+            <li class="nav-item"><a class="nav-link" href="store.html">SUBJECTS</a></li>
+            <li class="nav-item"><a class="nav-link" href="members.html">MEMBERS </a></li> 
+            <li class="nav-item"><a class="nav-link" href="pcontact.html">CONTACT</a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html">ADMIN</a></li> 
+
+        </ul>
+    </div>
+  </nav>
+    
+    <br>
+    
+    <div class="container-fluid imgee">
+      
+            <div class="box">
+               <a href="students_add.php" ><button ><strong> Students Registration</strong></button></a>
+                <br><br><br><br><br>
+                <a href="teachers_add.php" > <button > <strong> Teachers Registration</strong></button></a>
+
+          </div>
+          <div class="box">
+          
+           <img src="image/hira.jpg" alt=" Al-hira" width="500px" height="280px" >
+          
+        </div>
+        <div class="box">
+            <button><strong>Students Registration</strong></button><br><br><br><br><br>
+            <button><strong>Teachers Registration</strong> </button>
+
+      </div>
+          
+        </div>
+    </div>
+    
+    
+</body>
+</html>
